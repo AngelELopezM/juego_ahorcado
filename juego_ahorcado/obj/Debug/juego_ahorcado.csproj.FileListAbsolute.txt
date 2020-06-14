@@ -1,0 +1,9 @@
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\bin\Debug\juego_ahorcado.exe.config
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\bin\Debug\juego_ahorcado.exe
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\bin\Debug\juego_ahorcado.pdb
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\obj\Debug\juego_ahorcado.csprojAssemblyReference.cache
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\obj\Debug\juego_ahorcado.Form1.resources
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\obj\Debug\juego_ahorcado.Properties.Resources.resources
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\obj\Debug\juego_ahorcado.csproj.GenerateResource.cache
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\obj\Debug\juego_ahorcado.exe
+C:\Users\enman\OneDrive\Escritorio\C#\juego_ahorcado\juego_ahorcado\obj\Debug\juego_ahorcado.pdb
