@@ -13,7 +13,7 @@ namespace juego_ahorcado
         public List<string> animales = new List<string>();
         public List<string> frutas = new List<string>();
         public List<string> carros = new List<string>();
-        
+        public int palabra_seleccionada = 0;
         public void anadir()
         {
             frutas.Add("mango");
@@ -49,7 +49,7 @@ namespace juego_ahorcado
             carros.Add("suzuki");
             carros.Add("volvo");
         }
-        public int seleccionar_palabra(int palabra_seleccionada)
+        public string seleccionar_palabra()
         {
             anadir();//con este metodo llena
             Random rnd = new Random();
@@ -60,21 +60,21 @@ namespace juego_ahorcado
                 case 1:
                     
                     string animales = this.animales[aleatorio].ToString();
-                    return int.Parse(animales);
+                    return animales;
                     break;
                 case 2:
                     
                     string frutas = this.frutas[aleatorio].ToString();
-                    return int.Parse(frutas);
+                    return frutas;
                     break;
                 case 3:
                     string carros = this.carros[aleatorio].ToString();
-                    return int.Parse(carros);
+                    return carros;
                     break;
                 default:
                     break;
             }
-            return 0;
+            return "";
 
         }
     }

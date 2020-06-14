@@ -120,9 +120,11 @@ namespace juego_ahorcado
             try
             {
                 comboboxitem opcion_seleccionada = cb_opciones.SelectedItem as comboboxitem;
+                
                 listado_palabras listados = new listado_palabras();
-                int retencion = listados.seleccionar_palabra(opcion_seleccionada.value);
-                lblnombre.Text = retencion.ToString();
+                listados.palabra_seleccionada = opcion_seleccionada.value;
+                lblnombre.Text = listados.seleccionar_palabra();
+                
                 
 
                 
