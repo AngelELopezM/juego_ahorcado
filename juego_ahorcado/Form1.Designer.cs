@@ -42,6 +42,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btn_seleccionar_cat = new System.Windows.Forms.Button();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pb_5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_1)).BeginInit();
@@ -52,18 +54,18 @@
             // 
             // txtnombre
             // 
-            this.txtnombre.Location = new System.Drawing.Point(217, 341);
+            this.txtnombre.Location = new System.Drawing.Point(198, 350);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(147, 22);
             this.txtnombre.TabIndex = 0;
             // 
             // btnimprimir
             // 
-            this.btnimprimir.Location = new System.Drawing.Point(217, 394);
+            this.btnimprimir.Location = new System.Drawing.Point(101, 394);
             this.btnimprimir.Name = "btnimprimir";
-            this.btnimprimir.Size = new System.Drawing.Size(91, 33);
+            this.btnimprimir.Size = new System.Drawing.Size(207, 33);
             this.btnimprimir.TabIndex = 1;
-            this.btnimprimir.Text = "button1";
+            this.btnimprimir.Text = "Probar";
             this.btnimprimir.UseVisualStyleBackColor = true;
             this.btnimprimir.Click += new System.EventHandler(this.btnimprimir_Click);
             // 
@@ -71,16 +73,16 @@
             // 
             this.lblnombre.AutoSize = true;
             this.lblnombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblnombre.Location = new System.Drawing.Point(243, 277);
+            this.lblnombre.Location = new System.Drawing.Point(56, 168);
             this.lblnombre.Name = "lblnombre";
-            this.lblnombre.Size = new System.Drawing.Size(93, 32);
+            this.lblnombre.Size = new System.Drawing.Size(22, 32);
             this.lblnombre.TabIndex = 2;
-            this.lblnombre.Text = "label1";
+            this.lblnombre.Text = " ";
             // 
             // pb_5
             // 
             this.pb_5.Image = ((System.Drawing.Image)(resources.GetObject("pb_5.Image")));
-            this.pb_5.Location = new System.Drawing.Point(467, 56);
+            this.pb_5.Location = new System.Drawing.Point(499, 56);
             this.pb_5.Name = "pb_5";
             this.pb_5.Size = new System.Drawing.Size(350, 394);
             this.pb_5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -90,7 +92,7 @@
             // pb_4
             // 
             this.pb_4.Image = ((System.Drawing.Image)(resources.GetObject("pb_4.Image")));
-            this.pb_4.Location = new System.Drawing.Point(467, 56);
+            this.pb_4.Location = new System.Drawing.Point(499, 56);
             this.pb_4.Name = "pb_4";
             this.pb_4.Size = new System.Drawing.Size(350, 394);
             this.pb_4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -100,7 +102,7 @@
             // pb_1
             // 
             this.pb_1.Image = ((System.Drawing.Image)(resources.GetObject("pb_1.Image")));
-            this.pb_1.Location = new System.Drawing.Point(467, 56);
+            this.pb_1.Location = new System.Drawing.Point(499, 56);
             this.pb_1.Name = "pb_1";
             this.pb_1.Size = new System.Drawing.Size(350, 394);
             this.pb_1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -110,7 +112,7 @@
             // pb_2
             // 
             this.pb_2.Image = ((System.Drawing.Image)(resources.GetObject("pb_2.Image")));
-            this.pb_2.Location = new System.Drawing.Point(467, 56);
+            this.pb_2.Location = new System.Drawing.Point(499, 56);
             this.pb_2.Name = "pb_2";
             this.pb_2.Size = new System.Drawing.Size(350, 394);
             this.pb_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -120,7 +122,7 @@
             // pb_3
             // 
             this.pb_3.Image = ((System.Drawing.Image)(resources.GetObject("pb_3.Image")));
-            this.pb_3.Location = new System.Drawing.Point(467, 56);
+            this.pb_3.Location = new System.Drawing.Point(499, 56);
             this.pb_3.Name = "pb_3";
             this.pb_3.Size = new System.Drawing.Size(350, 394);
             this.pb_3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -130,7 +132,7 @@
             // pb_0
             // 
             this.pb_0.Image = ((System.Drawing.Image)(resources.GetObject("pb_0.Image")));
-            this.pb_0.Location = new System.Drawing.Point(467, 56);
+            this.pb_0.Location = new System.Drawing.Point(499, 58);
             this.pb_0.Name = "pb_0";
             this.pb_0.Size = new System.Drawing.Size(350, 394);
             this.pb_0.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -140,9 +142,9 @@
             // cb_opciones
             // 
             this.cb_opciones.FormattingEnabled = true;
-            this.cb_opciones.Location = new System.Drawing.Point(257, 58);
+            this.cb_opciones.Location = new System.Drawing.Point(281, 58);
             this.cb_opciones.Name = "cb_opciones";
-            this.cb_opciones.Size = new System.Drawing.Size(162, 24);
+            this.cb_opciones.Size = new System.Drawing.Size(199, 24);
             this.cb_opciones.TabIndex = 9;
             // 
             // label1
@@ -176,11 +178,31 @@
             this.btn_seleccionar_cat.UseVisualStyleBackColor = true;
             this.btn_seleccionar_cat.Click += new System.EventHandler(this.btn_seleccionar_cat_Click);
             // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(40, 300);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(410, 35);
+            this.flowLayoutPanel1.TabIndex = 13;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(13, 348);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 24);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Digite una letra";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(829, 477);
+            this.ClientSize = new System.Drawing.Size(861, 477);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.lblnombre);
+            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btn_seleccionar_cat);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -191,7 +213,6 @@
             this.Controls.Add(this.pb_1);
             this.Controls.Add(this.pb_4);
             this.Controls.Add(this.pb_5);
-            this.Controls.Add(this.lblnombre);
             this.Controls.Add(this.txtnombre);
             this.Controls.Add(this.btnimprimir);
             this.Name = "Form1";
@@ -223,6 +244,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btn_seleccionar_cat;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Label label3;
     }
 }
 

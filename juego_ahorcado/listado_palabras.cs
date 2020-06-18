@@ -14,6 +14,7 @@ namespace juego_ahorcado
         public List<string> frutas = new List<string>();
         public List<string> carros = new List<string>();
         public int palabra_seleccionada = 0;
+        public string palabra_elegida;
         public void anadir()
         {
             frutas.Add("mango");
@@ -76,6 +77,15 @@ namespace juego_ahorcado
             }
             return "";
 
+        }
+
+        public int contar_numero_de_letras()
+        {
+            /*Aqui contamos el numero de letras para poder crear un numero de 
+             labels que se ajuste a la palabra*/
+            palabra_elegida = seleccionar_palabra();
+            int retenedor = palabra_elegida.Length;
+            return retenedor;
         }
     }
 }
